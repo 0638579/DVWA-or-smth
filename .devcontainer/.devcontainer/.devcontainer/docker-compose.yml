@@ -1,8 +1,0 @@
-services:
-  dvwa:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "9080:80"
-    restart: always
